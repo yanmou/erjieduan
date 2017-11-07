@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/font_6fdo5jbr2777rpb9/iconfont.css"/>
+	</head>
+	<body>
+		<div class="head">
+			<img src="img/log1o.png" alt="" />	
+			<span>登录</span>
+		</div>
+		<div id="box">
+			<div class="g-in">
+				<img src="img/ad.bid.jpg" alt="" />
+			</div>
+			<div class="small">
+				<div class="tabHd">
+					<ul>
+						<li>普通登录</li>
+						<li class="erweima">二维码登录</li>
+					</ul>
+				</div>
+				<div class="tabBd">
+					<div class="loginBy">
+						<i class="iconfont M-yonghu1 icon-yonghu1"></i>
+						<input type="text" placeholder="邮箱" id="user"/>
+						<!--<input type="text" />-->
+					</div>
+					<div class="loginBy">
+						
+						<i class="iconfont icon-suo"></i>
+						<input type="text" placeholder="密码" id="psw" />
+						
+					</div>
+				</div>
+				
+				<div class="denglu">
+					<a href="javascript:;" id="denglu">登&nbsp;&nbsp;&nbsp;录</a>
+				</div>
+				
+				<div class="loginLinks">
+					<a href="">忘记密码</a>|
+					<a href="">注册</a>|
+					<a href="">关于网易邮箱账号</a>
+				</div>
+				
+				
+				<div class="loginAnnouce">
+					<img src="img/slide.png" alt="" />
+					<p><a href="">公告：网易邮箱帐号升级公告</a></p>	
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		
+		<div class="ftnList">
+				<ul>
+					<li>
+						<a href="">
+							<img src="img/fangyu.png" alt="" />
+							<span>网易帐号管家<br><i>帐号保护神器，有效防止被盗</i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/fangyu.png" alt="" />
+							<span>网易帐号管家<br><i>帐号保护神器，有效防止被盗</i></span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="img/fangyu.png" alt="" />
+							<span>网易帐号管家<br><i>帐号保护神器，有效防止被盗</i></span>
+						</a>
+					</li>					
+					<li>
+						<a href="">
+							<img src="img/fangyu.png" alt="" />
+							<span>网易帐号管家<br><i>帐号保护神器，有效防止被盗</i></span>
+						</a>
+					</li>					
+					<li>
+						<a href="">
+							<img src="img/fangyu.png" alt="" />
+							<span>网易帐号管家<br><i>帐号保护神器，有效防止被盗</i></span>
+						</a>
+					</li>					
+				</ul>
+				
+		</div>
+		
+		
+		<div class="foot">
+			<ul>
+				<li><a href="">About NetEase&nbsp;-&nbsp;</a></li>
+				<li><a href="">公司简介&nbsp;-&nbsp;</a></li>
+				<li><a href="">联系方式&nbsp;-&nbsp;</a></li>
+				<li><a href="">OAuth2.0认证&nbsp;-&nbsp;</a></li>
+				<li><a href="">招聘信息&nbsp;-&nbsp;</a></li>
+				<li><a href="">客户服务&nbsp;-&nbsp;</a></li>
+				<li><a href="">相关法律&nbsp;-&nbsp;</a></li>
+				<li><a href="">网络营销&nbsp;</a></li>
+			</ul>
+			<p>网易公司版权所有 ©1997-2017</p>
+		</div>	
+		
+	</body>
+</html>
+<script src="jquery-1.11.1.min.js"></script>
+<script src="js/myCookie.js"></script>
+<script>
+	var arr = getCookie("userInfo");
+	console.log(arr[0]);
+	
+	$("#denglu").click(function(){
+		if($("#user").val()==arr[0].ptel&&$("#psw").val()==arr[0].pwd){
+			location.href = "shouye.html";
+		}
+	})
+	
+</script>

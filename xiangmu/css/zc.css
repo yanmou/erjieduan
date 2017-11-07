@@ -1,0 +1,163 @@
+html, body, div, p, ul, ol, li, dl, dt, dd, table, tr, td, th, caption, form, hr, h1, h2, h3, h4, h5, h6, input, img {
+  margin: 0;
+  padding: 0; }
+
+ul li, ol li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+body {
+  background-color: #efefef; }
+
+.g-hd {
+  height: 130px;
+  line-height: 130px;
+  overflow: hidden; }
+
+.g-in {
+  width: 1000px;
+  margin: 0 auto; }
+  .g-in span {
+    float: right;
+    font-size: 18px;
+    margin-top: 35px; }
+    .g-in span a {
+      color: #ca5252; }
+
+.g-a {
+  float: left;
+  width: 300px;
+  margin-top: 35px; }
+
+.g-bd {
+  width: 1000px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative; }
+
+.clearfix {
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+.m-tab {
+  width: 320px;
+  margin: 0 auto;
+  height: 43px;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  top: 50px;
+  padding-bottom: 50px; }
+
+.pt {
+  width: 158px;
+  height: 40px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  color: white;
+  background: #ca5252; }
+
+.pt1 {
+  width: 158px;
+  height: 40px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  color: #CCCCCC; }
+
+.m-opr {
+  height: 600px;
+  margin-top: 0; }
+
+.u-input {
+  position: relative;
+  float: left;
+  height: 72px;
+  width: 100%;
+  overflow: hidden; }
+
+.zhanghao span {
+  float: left;
+  width: 340px;
+  text-align: right;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 45px;
+  color: #333;
+  margin-right: 5px; }
+
+.in-input {
+  float: left;
+  height: 44px;
+  width: 320px;
+  margin-top: 12px;
+  border: solid 1px #ddd;
+  font-size: 16px; }
+
+.yanzheng {
+  float: left;
+  height: 50px;
+  width: 200px;
+  margin-top: 12px;
+  border: solid 1px #ddd; }
+
+.zhuce {
+  margin-left: 344px;
+  height: 46px;
+  width: 324px;
+  background: #ca5252;
+  text-align: center;
+  line-height: 46px; }
+  .zhuce a {
+    color: white;
+    font-size: 18px; }
+
+.u-agree {
+  float: left;
+  width: 14px;
+  height: 14px;
+  line-height: 20px;
+  border: 1px solid #ccc;
+  background: #fff; }
+
+.xieyi {
+  float: left;
+  width: 340px;
+  font-size: 14px; }
+
+.xiey {
+  margin-top: 30px; }
+
+.guanjia {
+  margin-left: 50px; }
+
+.tishiyu {
+  margin-left: 2px;
+  float: left;
+  margin-top: 26px;
+  color: red;
+  display: none; }
+
+#duigou {
+  display: none;
+  width: 30px;
+  float: left; }
+
+#erroyzm {
+  width: 100px;
+  height: 20px;
+  float: left;
+  margin-top: 18px;
+  color: red;
+  display: none; }
+
+/*# sourceMappingURL=zc.css.map */
